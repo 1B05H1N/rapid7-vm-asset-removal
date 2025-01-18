@@ -66,16 +66,18 @@ python asset_removal.py
 
 1. Prepare a CSV file (`assets.csv`) with computer names:
 
+   ```
     computer1.example.com
     computer2.example.com
+   ```
 
-2. Run the script. It will:
+3. Run the script. It will:
    - Backup `assets.csv` to a timestamped file.
    - Search for each computer name in InsightVM.
    - Delete the computer if found.
    - Log results to `asset_removal.log`.
 
-3. Review the summary report displayed in the console or check `processed_assets.log` for processed computers.
+4. Review the summary report displayed in the console or check `processed_assets.log` for processed computers.
 
 ## Limitations
 
