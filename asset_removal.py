@@ -3,7 +3,6 @@ import logging
 import re
 import os
 import time
-from hashlib import md5
 import csv
 from logging.handlers import RotatingFileHandler
 from configparser import ConfigParser
